@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Options"
+        android:title="Reboot Options" >
+        <Preference
+            android:key="normal"
+            android:icon="@drawable/reboot"
+            android:summary="Reboot device"
+            android:title="Reboot" />
+        <Preference
+            android:key="recovery"
+            android:icon="@drawable/recovery"
+            android:summary="Reboot in Recovery mode"
+            android:title="Reboot Recovery" />
+        <Preference
+            android:key="bootloader"
+            android:icon="@drawable/bootloader"
+            android:summary="Reboot in Bootloader mode"
+            android:title="Reboot Bootloader" />
+        <Preference
+            android:key="hotreboot"
+            android:icon="@drawable/hotreboot"
+            android:summary="Fast reboot your phone"
+            android:title="Hot Reboot" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+</PreferenceScreen>

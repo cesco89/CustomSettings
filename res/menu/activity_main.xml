@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/zip"
+        android:title="Search Zip"/>
+    <item
+        android:id="@+id/apk"
+        android:title="Search Apk"/>
+
+</menu>

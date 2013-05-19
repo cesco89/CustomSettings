@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Misc Settings"
+        android:title="Misc Settings" >
+        <ListPreference
+            android:entries="@array/light_values"
+            android:entryValues="@array/light_values"
+            android:key="light"
+            android:summary="Select brightness value. Zero means no backlight"
+            android:title="Button backlight brightness" />
+
+        <SwitchPreference
+            android:key="btnback"
+            android:summary="Enable/disable button backlight"
+            android:title="Button backlight" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Misc Settings"
+        android:title="Sweep2Wake settings" >
+        <SwitchPreference
+            android:key="sweepwake"
+            android:summary="Enable/Disable sweep2wake"
+            android:title="Sweep to Wake" />
+        <SwitchPreference
+            android:key="sweepdir"
+            android:summary="Enable/Disable Sweep2wake direction dependence"
+            android:title="Sweep to Wake Direction" />
+
+        <ListPreference
+            android:entries="@array/sweepbuttons"
+            android:entryValues="@array/sweepbuttons"
+            android:key="buttons"
+            android:summary="Select Sweep2wake min swipe distance"
+            android:title="Sweep2wake min distance" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Misc Settings"
+        android:title="DoubleTap2Wake settings" >
+        <SwitchPreference
+            android:key="dtwake"
+            android:summary="Enable/Disable Double Tap To Wake"
+            android:title="Double Tap to Wake" />
+        <Preference
+            android:key="dtTime"
+            android:summary="Select DoubleTap2Wake threshold"
+            android:title="DT2W threshold" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Misc Settings"
+        android:title="Set On Boot" >
+    <CheckBoxPreference
+        android:key="miscboot"
+        android:summary="Apply settings on boot ( init.d)"
+        android:title="Set On Boot" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+</PreferenceScreen>

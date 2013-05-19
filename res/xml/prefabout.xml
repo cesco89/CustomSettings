@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:summary="Options"
+        android:title="Donate" >
+        <Preference
+            android:icon="@drawable/paypal"
+            android:key="donate"
+            android:summary="Donate to author of this app"
+            android:title="Donate to Me" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:title="Useful Links" >
+        	<Preference
+            android:icon="@drawable/icon"
+            android:key="androidiani"
+            android:summary="Thread on Androidiani.com"
+            android:title="Androidiani.com" />
+        	<Preference
+            android:icon="@drawable/xda"
+            android:key="xda"
+            android:summary="Thread on XDA Developers"
+            android:title="XDA Developers" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory
+        android:title="About the author" >
+        	<Preference
+            android:icon="@drawable/gplus"
+            android:key="gplus"
+            android:summary="Find me on G+"
+            android:title="Google Plus" />
+        	<Preference
+            android:icon="@drawable/twitter"
+            android:key="twitter"
+            android:summary="Find me on twitter"
+            android:title="Twitter" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+</PreferenceScreen>

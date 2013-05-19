@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/apply"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/apply"
+        android:title="@string/applyuv"/>
+    <item
+        android:id="@+id/step"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/step"
+        android:icon="@drawable/edit"/>
+    <group android:checkableBehavior="all">
+        <item android:id="@+id/boot"
+              android:title="@string/boot" 
+              android:orderInCategory="100"
+        	  android:showAsAction="ifRoom|withText"
+        	  android:icon="@drawable/unchd"/>
+    </group>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.cesco.customsettings.MyPreferenceCategory android:title="CPU" >
+        <Preference android:title="CPU Settings"
+            		android:summary="tweak CPU parameters"
+            		android:icon="@drawable/machine" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+    <com.cesco.customsettings.MyPreferenceCategory android:title="UV" >
+        <Preference android:title="UV Table" 
+            		android:summary="Change CPU Voltages"
+            		android:icon="@drawable/nuclear"/>
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="Low Memory Killer" >
+        <Preference android:title="MinFree Settings" 
+            		android:summary="Change LowMemoryKiller parameters"
+            		android:icon="@drawable/ic_mf"/>
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+    <com.cesco.customsettings.MyPreferenceCategory android:title="GPU" >
+        <Preference android:title="GPU Settings"
+            		android:summary="tweak GPU parameters"
+            		android:icon="@drawable/tv" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="Misc" >
+        <Preference android:title="Miscellaneous settings"
+            		android:summary="tweak some device parameters, button backlight brightness, S2W, DT2W" 
+            		android:icon="@drawable/science"/>
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="Stats" >
+        <Preference android:title="Usage Stats"
+            		android:summary="Some device stats"
+            		android:icon="@drawable/chart" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="Reboot " >
+        <Preference android:title="Reboot Options"
+            		android:summary="different ways to reboot your device"
+            		android:icon="@drawable/power" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="Installer" >
+        <Preference android:title="Install APK/Zip"
+            		android:summary="install Apps or Zips from the root of your SDcard and the Downloads folder" 
+            		android:icon="@drawable/install"/>
+    </com.cesco.customsettings.MyPreferenceCategory>
+    <com.cesco.customsettings.MyPreferenceCategory android:title="About" >
+        <Preference android:title="About this app"
+            		android:summary="About the author and some useful links"
+            		android:icon="@drawable/about" />
+    </com.cesco.customsettings.MyPreferenceCategory>
+
+</PreferenceScreen>
